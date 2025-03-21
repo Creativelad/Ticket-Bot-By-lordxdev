@@ -1,0 +1,37 @@
+{
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "mongoURI": "YOUR_MONGODB_CONNECTION_STRING_HERE",
+    
+    "ticketPanel": {
+        "title": "Support Tickets",
+        "description": "Click the button below to create a ticket!",
+        "buttonLabel": "Open Ticket",
+        "buttonEmoji": "🎟️",
+        "categoryID": "TICKET_CATEGORY_ID_HERE",
+        "supportRoleID": "SUPPORT_ROLE_ID_HERE"
+    },
+
+    "logging": {
+        "enabled": true,
+        "channelID": "LOG_CHANNEL_ID_HERE"
+    },
+
+    "staffPing": {
+        "enabled": true,
+        "roleID": "STAFF_ROLE_ID_HERE"
+    },
+
+    "faqSystem": {
+        "enabled": true,
+        "questions": [
+            {
+                "question": "How do I create a ticket?",
+                "answer": "Click the 'Open Ticket' button to create a support ticket!"
+            },
+            {
+                "question": "What is the response time?",
+                "answer": "Our support team usually responds within 24 hours."
+            }
+        ]
+    }
+}
